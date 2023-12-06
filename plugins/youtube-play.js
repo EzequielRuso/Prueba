@@ -24,7 +24,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
         txt += `📅 *PUBLICADO* ${eYear(ago) || ago || '×'}\n\n`
         txt += `⚖️ *TAMAÑO* : ${size}\n\n`
         txt += `🎞️ *CALIDAD* : ${q}\n\n`
-        txt += `*01:06 ━━━━⬤─────── 04:05*\n\n*DESCARGANDO AUDIO POR FAVOR ESPERA SOY ALGO LENTA..🐢`
+        txt += `*01:06 ━━━━⬤─────── 04:05*\n\n*DESCARGANDO AUDIO POR FAVOR ESPERA @${m.sender.split`@`[0]} SOY ALGO LENTA..🐢*`
        
 let buttonMessage= {
 'document': { url: `https://github.com/` },
