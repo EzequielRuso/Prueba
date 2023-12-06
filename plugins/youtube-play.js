@@ -17,14 +17,14 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
     let ytmsg = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "17608914335-1625305606@g.us" } : {}) }, message: { "extendedTextMessage": { "text":'Downloader YT', "title": 'Miku Bot - MD', 'jpegThumbnail': ytlogo}}}
     let { title, description, thumbnail, videoId, timestamp, views, ago, url } = vid
     if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`El archivo pesa mas de ${limit} MB, se canceló la Descarga.`, m, adReply).then(_ => m.react('✖️'))
-    let txt = `*🎶  Y O U T U B E  -  P L A Y🎶*\n`
-        txt += `│🍭 *Título ∙* ${vid.title}\n`
-        txt += `│🕜 *Duración ∙* ${vid.timestamp}\n`
-        txt += `│👁 *Visitas ∙* ${vid.views}\n`
-        txt += `│📅 *Publicado ∙* ${eYear(ago) || ago || '×'}\n`
-        txt += `│⚖️ *Tamaño* : ${size}\n`
-        txt += `│🎞️ *Calidad* : ${q}\n`
-        txt += `╰──────────✰`
+    let txt = `*🎶 M U S I C A - P L A Y 🎶*\n`
+        txt += `📝 *TITULO* ${vid.title}\n`
+        txt += `🕜 *DURACIÓN* ${vid.timestamp}\n`
+        txt += `👁 *VISITAS* ${vid.views}\n`
+        txt += `📅 *PUBLICADO* ${eYear(ago) || ago || '×'}\n`
+        txt += `⚖️ *TAMAÑO* : ${size}\n`
+        txt += `🎞️ *CALIDAD* : ${q}\n`
+        txt += `*01:06 ━━━━⬤─────── 04:05*`
        
 let buttonMessage= {
 'document': { url: `https://github.com/` },
