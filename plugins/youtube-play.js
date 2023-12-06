@@ -17,7 +17,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
     let ytmsg = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "17608914335-1625305606@g.us" } : {}) }, message: { "extendedTextMessage": { "text":'Downloader YT', "title": 'Miku Bot - MD', 'jpegThumbnail': ytlogo}}}
     let { title, description, thumbnail, videoId, timestamp, views, ago, url } = vid
     if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`El archivo pesa mas de ${limit} MB, se canceló la Descarga.`, m, adReply).then(_ => m.react('✖️'))
-    let txt = `╭──────────✰\n`
+    let txt = `*🎶  Y O U T U B E  -  P L A Y🎶*\n`
         txt += `│🍭 *Título ∙* ${vid.title}\n`
         txt += `│🕜 *Duración ∙* ${vid.timestamp}\n`
         txt += `│👁 *Visitas ∙* ${vid.views}\n`
