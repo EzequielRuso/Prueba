@@ -10,11 +10,11 @@ import moment from "moment-timezone"
 //⊱ ━━━━.⋅ Añada los numeros a ser Propietario/a ⋅.━━━ ⊰  
 
 global.owner = [
-  ['50662333781', 'おDaniel', true],
-  ['5218139760662'],
-  ['4794069908'],
-  ['5218261009198'],
-  ['5218132588591']
+  ['51907913096', 'おDaniel', true],
+  ['51907913096'],
+  ['51907913096'],
+  ['51907913096'],
+  ['51907913096']
 ] //Numeros de owner 
 
 //━━━━━━━━━━━ ฅ^•ﻌ•^ฅ ━━━━━━━━━━━
@@ -54,7 +54,7 @@ global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(fa
 
 //━━━━━━━━━━━ ฅ^•ﻌ•^ฅ ━━━━━━━━━━━
 
-global.group = 'https://chat.whatsapp.com/CI2lyPkp3Ks3temWFfswZJ'
+global.group = 'https://chat.whatsapp.com/FZ5NqcnUDsN6ZA8kBFnewH'
 
 //━━━━━━━━━━━ ฅ^•ﻌ•^ฅ ━━━━━━━━━━━
 
