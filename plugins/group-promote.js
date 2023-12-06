@@ -21,7 +21,7 @@ var user = number + '@s.whatsapp.net'
 } catch (e) {
 } finally {
 conn.groupParticipantsUpdate(m.chat, [user], 'promote')
-conn.reply(m.chat, `*[🛑 INFORMACIÓN 🛑]*\n\n*AHORA TIENE EL PODER DEL ADMINISTRADOR 🥳*`, m)}
+conn.reply(m.chat, `*[🛑 INFORMACIÓN 🛑]*\n\n*SE PROMOVIÓ CORRECTAMENTE COMO ADMINISTRADOR 🥳*`, m)}
 
 }
 handler.help = ['promote']
