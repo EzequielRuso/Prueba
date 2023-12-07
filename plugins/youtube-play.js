@@ -33,7 +33,7 @@ let buttonMessage= {
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {
-'mentions':[m.sender],
+'mentions': [m.sender],
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
